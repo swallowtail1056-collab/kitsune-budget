@@ -95,9 +95,9 @@ const applyTheme=name=>Object.assign(C,THEMES[name]||THEMES.dark);
 /* ══ カテゴリ ══ */
 const KCAT={
   expense:[
-    {id:"food",label:"Groceries",icon:"🍜",color:"#A03030"},
+    {id:"food",label:"Groceries",icon:"🛒",color:"#A03030"},
     {id:"eatout",label:"Dining out",icon:"🍽️",color:"#B5651D"},
-    {id:"transport",label:"Transportation",icon:"🚃",color:"#1A5A99"},
+    {id:"transport",label:"Transportation",icon:"🚗",color:"#1A5A99"},
     {id:"telecom",label:"Phone & internet",icon:"📱",color:"#2A7FA8"},
     {id:"shopping",label:"Household",icon:"🛍️",color:"#996600"},
     {id:"clothes",label:"Clothing",icon:"👕",color:"#8E3F8F"},
@@ -123,12 +123,12 @@ const KCAT={
     {id:"other_e",label:"Other",icon:"📦",color:"#445566"},
   ],
   income:[
-    {id:"salary",label:"Salary",icon:"💴",color:"#227722"},
+    {id:"salary",label:"Salary",icon:"💵",color:"#227722"},
     {id:"pension",label:"Retirement income",icon:"🧓",color:"#C9A227"},
     {id:"allowance_i",label:"Allowance",icon:"👛",color:"#E9A23B"},
     {id:"bonus",label:"Bonus",icon:"🎁",color:"#115577"},
     {id:"side",label:"Side income",icon:"💻",color:"#116677"},
-    {id:"tips",label:"Tips",icon:"💵",color:"#2F8F5B"},
+    {id:"tips",label:"Tips",icon:"💲",color:"#2F8F5B"},
     {id:"other_i",label:"Other income",icon:"🪙",color:"#446600"},
   ],
 };
@@ -136,7 +136,7 @@ const ATYPE=[
   {id:"bank",label:"Bank account",icon:"🏦",color:"#4A90D9"},
   {id:"savings",label:"Savings",icon:"💰",color:"#27AE60"},
   {id:"investment",label:"Investments",icon:"📈",color:"#E67E22"},
-  {id:"cash",label:"Cash",icon:"💴",color:"#8E44AD"},
+  {id:"cash",label:"Cash",icon:"💵",color:"#8E44AD"},
   {id:"credit",label:"Credit card (debt)",icon:"💳",color:"#E74C3C"},
   {id:"other",label:"Other",icon:"📦",color:"#7F8C8D"},
 ];
@@ -1015,7 +1015,7 @@ const KID_OUT=[
 ];
 const KID_IN=[
   {id:"k_allow",label:"Allowance",icon:"👛",color:"#E9A23B"},
-  {id:"k_gift",label:"Gift money",icon:"🧧",color:"#C0504D"},
+  {id:"k_gift",label:"Gift money",icon:"🎀",color:"#C0504D"},
   {id:"k_help",label:"Chores",icon:"🧹",color:"#2E8B57"},
   {id:"k_in_other",label:"Other",icon:"🪙",color:"#446600"},
 ];
